@@ -55,11 +55,12 @@ DFS
 ```
 
 이후에 작업할 땐...
-git fetch upstream 으로 원격 저장소의 최신내용을 가져온다.
-git checkout main
-git merge upstream/main
-git push origin main
-으로 나의 원격 저장소와 최신화 시켜준다.
+
+- git fetch upstream 으로 원격 저장소의 최신내용을 가져온다.
+- git checkout main
+- git merge upstream/main
+- git push origin main
+  으로 나의 원격 저장소와 최신화 시켜준다.
 
 [링크](https://velog.io/@jisubin12/Github-외부저장소-fork-pull-request-동기화-하기) 를 보면서 작성한 가이드라인입니다.
 
