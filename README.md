@@ -119,3 +119,15 @@ const [m, ...m_arr] = input.slice(n + 1);
 로컬에서 테스트 할땐 input값을 푸는 디렉토리의 input.txt파일에 입력한다.
 
 [출처](https://jaehyun2yo.tistory.com/17)
+
+## vscode에서 환경셋팅하기
+
+.gitignore에 /test폴더는 무시하게 적용했습니다 이를 활용하여..
+
+test/폴더를 생성합니다. 그 안에 coding.js 와 input.txt를 만듭니다.
+
+![Alt text](./img/test.png)
+
+npm install -g nodemon 명령으로 nodemon을 설치합니다.
+
+코드를 작성하고 터미널로 test폴더로 들어가 nodemon coding.js로 실행합니다. -> 변경사항 생길시 자동으로 실행해줘서 편합니다!
