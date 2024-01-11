@@ -3,7 +3,7 @@ const INPUT = require("fs")
   .toString()
   .trim()
   .split("\n");
-
+/* 실제 알고리즘 푸는곳 */
 function solution() {
   const prices = INPUT[0].split(" ").map((v) => Number(v));
   let cars = INPUT.slice(1, 4);

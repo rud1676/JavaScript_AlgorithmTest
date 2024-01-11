@@ -23,6 +23,23 @@
 
 담당자는 임시로 본인이 다 처리함!
 
+취준 모임 톡방에 참여하신 분들에 한에서 문제마다 참여하신 분들을 톡방에다가 매주 일요일마다 올려서 동기부여를 하겠습니다!!
+
+ex) 아래와 같이 매주 일요일마다 카톡이 올라옵니다!
+
+1월 2주차 Javascript코딩테스트 참여자
+불참자: @rud1676
+2979
+@rudwls96 @rud15
+2976
+@rudwls96 @rud15 @rud1672
+2975
+@rudwls96 @rud15
+2973
+@rudwls96 @rud15 @rud15
+2971
+@rudwls96 @rud15
+
 ### 문제 푸는 방법
 
 0. README.md의 해당 주차에 풀 문제들을 확인한다. 링크로 들어가서 확인
@@ -126,7 +143,7 @@ const [m, ...m_arr] = input.slice(n + 1);
 
 test/폴더를 생성합니다. 그 안에 coding.js 와 input.txt를 만듭니다.
 
-![Alt text](./img/test.png)
+![Alttext](./img/test.png)
 
 npm install -g nodemon 명령으로 nodemon을 설치합니다.
 
