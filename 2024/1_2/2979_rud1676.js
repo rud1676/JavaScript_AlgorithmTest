@@ -3,7 +3,8 @@ const INPUT = require("fs")
   .toString()
   .trim()
   .split("\n");
-/* 실제 알고리즘 푸는곳 */
+
+/* 실제 알고리즘 푸는곳 그냥 1~100까지 카운팅해서 풀었습니다.*/
 function solution() {
   const prices = INPUT[0].split(" ").map((v) => Number(v));
   let cars = INPUT.slice(1, 4);
