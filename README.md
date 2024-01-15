@@ -28,19 +28,13 @@
 
 취준 모임 톡방에 참여하신 분들에 한에서 문제마다 참여하신 분들을 톡방에다가 매주 일요일마다 올려서 동기부여를 하겠습니다!!
 
-ex) 아래와 같이 매주 일요일마다 카톡이 올라옵니다!
+ex) 아래와 같이 매주 금요일마다 카톡이 올라옵니다!
 
 ```
 1월 2주차 Javascript코딩테스트 참여자
 불참자: @rud1676
 2979
 @rudwls96 @rud15
-2976
-@rudwls96 @rud15 @rud1672
-2975
-@rudwls96 @rud15
-2973
-@rudwls96 @rud15 @rud15
 2971
 @rudwls96 @rud15
 ```
@@ -141,6 +135,8 @@ const [m, ...m_arr] = input.slice(n + 1);
 로컬에서 테스트 할땐 input값을 푸는 디렉토리의 input.txt파일에 입력한다.
 
 [출처](https://jaehyun2yo.tistory.com/17)
+
+[코딩테스트에 필요한 Javascript 개념(작성중)](./Javascript.md)
 
 ## 🤽🏻‍♂️ vscode에서 환경셋팅하기
 
