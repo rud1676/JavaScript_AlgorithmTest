@@ -35,3 +35,5 @@ BigInt는 다음의 상황에서는 Number처럼 행동합니다.
 - Boolean 함수를 사용해 Boolean 객체로 변환
 - 논리 연산자 ||, &&, !와 함께 사용
 - if문 등 조건 판별 시
+
+출력할 때 n을 제외시킬려면 toString()또는 Number로 감싸기!(범위 주의)
