@@ -1,1 +1,1 @@
-console.log("Hellow Students!\nWelcome to LeebrosCode!")
+console.log("Hello Students!\nWelcome to LeebrosCode!")
