@@ -1,1 +1,1 @@
-console.log("Total days in year\n365\nCircumference rate\n3.1415926535")
+console.log("Total days in Year\n"+365+"\nCircumference rate\n"+3.1415926535)
