@@ -45,3 +45,7 @@ BigInt는 다음의 상황에서는 Number처럼 행동합니다.
 const mp = Array.from(Array(a), () => Array(b).fill(0));
 // mp는 컬럼길이 a, row 길이 b로 2차원 배열이 만들어짐!
 ```
+
+```
+
+```
