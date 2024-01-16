@@ -14,6 +14,7 @@ Number의 1은 1n으로 표현!
 > 경고: 소수점 결과를 포함하는 연산을 BigInt와 사용하면 소수점 이하는 사라집니다.
 
 비교연산과 정렬 연산 사용시 일반적으로 사용 가능!
+
 ```js
 1n < 2;
 // ↪ true
@@ -37,3 +38,10 @@ BigInt는 다음의 상황에서는 Number처럼 행동합니다.
 - if문 등 조건 판별 시
 
 출력할 때 n을 제외시킬려면 toString()또는 Number로 감싸기!(범위 주의)
+
+## 2nd Array
+
+```js
+const mp = Array.from(Array(a), () => Array(b).fill(0));
+// mp는 컬럼길이 a, row 길이 b로 2차원 배열이 만들어짐!
+```
