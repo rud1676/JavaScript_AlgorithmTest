@@ -5,11 +5,11 @@ let a = Number(input[0]);
 let b = Number(input[1]);
 
 let resultA,resultB;
-if (a >b) {
-   resultA=0;
+if (a <b) {
+   resultA=1;
 }
 else {
-    resultA=1;
+    resultA=0;
 }
 
 if (a==b) {
