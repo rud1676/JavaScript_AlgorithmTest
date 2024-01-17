@@ -12,7 +12,7 @@ if (a>=90) {
     if(b>=95){
 
    price=100000;
-    }else if(a>=90){
+    }else if(b>=90){
 price = 50000;
     }
 }
