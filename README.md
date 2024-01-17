@@ -154,3 +154,7 @@ test/폴더를 생성합니다. 그 안에 coding.js 와 input.txt를 만듭니�
 npm install -g nodemon 명령으로 nodemon을 설치합니다.
 
 코드를 작성하고 터미널로 test폴더로 들어가 nodemon coding.js로 실행합니다. -> 변경사항 생길시 자동으로 실행해줘서 편합니다!
+
+## 문제푸는 원칙
+
+1. 보통 예시1번이 가장 쉬운 예시를 준다. -> 이것을 기반으로 먼저 로직을 짠다.
