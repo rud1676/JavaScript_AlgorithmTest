@@ -11,7 +11,7 @@ console.log("John");
 }else if(a==2){
 
 console.log("Tom");
-}else if(c==3){
+}else if(a==3){
 
 console.log("Paul");
 }else{
