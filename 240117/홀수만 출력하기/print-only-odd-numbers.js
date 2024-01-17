@@ -9,8 +9,8 @@ for(let i=0;i<input.length;i++){
     let x = Number(input[i]);
 
 
-    if(input[i]%2!=0 && input[i]%3==0){
-      console.log(input[i]);
+    if(x%2!=0 && x%3==0){
+      console.log(x);
     }
 
 }
