@@ -46,22 +46,26 @@ const mp = Array.from(Array(a), () => Array(b).fill(0));
 // mp는 컬럼길이 a, row 길이 b로 2차원 배열이 만들어짐!
 ```
 
-## dfs => 정점의 가치를 매기는 방법
+## 문자열 다루기
 
-- 모든 탐색한 경로가 몇개인지 새고싶을때: 각 정점의 가치를 1로 매긴다음 더한다!
+### 시간 형식으로 출력하기 padStart
 
 ```js
-function dfs(y, x, mp, cnt) {
-  // dfs 순회!
-  if (mp[y][x] !== 0) return;
-  let ret = 1; // 정점에 가치를 매긴다 (1로!!)
-  mp[y][x] = cnt;
-  for (let i = 0; i < 4; i++) {
-    const nx = x + dx[i];
-    const ny = y + dy[i];
-    if (nx >= b || nx < 0 || ny >= a || ny < 0 || mp[ny][nx] !== 0) continue;
-    ret += dfs(ny, nx, mp, cnt); // 순회되는 정점의 가치를 더한다. - 모든 정점의 가치가 1이므로 탐색한 노드의 값이 나온다!
-  }
-  return ret;
-}
+const at = 301; //301초를 05:01초로 표현
+console.log(
+  `${Math.floor(at / 60)
+    .toString()
+    .padStart(2, "0")}:${(at % 60).toString().padStart(2, "0")}`
+);
+//해당 문법은 레터럴 문법 + 00:00으로 자리수 채워주는 역활을 해주는 문법임!
+```
+
+### 레터럴 문법(ES6)
+
+문자열에 변수값을 넣어서 문자열로 바로 치환이 가능한 문법 사용법은 아래와 같음! - 백틱으로 시작해 백틱으로 끝나고 변수는 ${}안에 넣어둠!
+
+```js
+const h = 53;
+const m = 40;
+`${h}:${m}`; //53:40 으로 출력됨!!
 ```
