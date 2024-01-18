@@ -143,8 +143,8 @@ const [m, ...m_arr] = input.slice(n + 1);
 
 ## 코딩테스트에 필요한 지식들
 
-[코딩테스트에 필요한 Javascript 개념(작성중)](./Javascript.md)
-[코딩테스트 접근법](./HowToSolved.md)
+- [코딩테스트에 필요한 Javascript 개념(작성중)](./Javascript.md)
+- [코딩테스트 접근법](./HowToSolved.md)
 
 ## 🤽🏻‍♂️ vscode에서 환경셋팅하기
 
