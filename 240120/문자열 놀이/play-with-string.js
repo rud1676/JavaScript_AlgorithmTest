@@ -9,8 +9,8 @@ var arr = input[0].split(" ");
 
 let str = arr[0];
 let n = arr[1];
-strR=str.slice(0);
-strR=strR.split("");
+
+str=str.split("");
 
 
 for(let i=1;i<=n;i++){
@@ -18,23 +18,23 @@ for(let i=1;i<=n;i++){
    
     if(1==brr[0]){
           
-        [strR[brr[1]-1],strR[brr[2]-1]]=[[strR[brr[2]-1]],strR[brr[1]-1]];
-        strR=strR.join("")
-        console.log(strR);
+        [str[brr[1]-1],str[brr[2]-1]]=[[str[brr[2]-1]],str[brr[1]-1]];
+        str=str.join("")
+        console.log(str);
        
     }
     else if(2==brr[0]){
-        strB=str.slice(0);
-        strR=strR.split("");
+     
+        str=str.split("");
       
             for(let j=0;j<str.length;j++){
 
             
-        if(strR[j]==='a'){
-            strR[j]=brr[2];
+        if(str[j]==='a'){
+            str[j]=brr[2];
         }
             }
-            console.log(strR.join(""));
+            console.log(str.join(""));
          
     }
    
