@@ -19,7 +19,7 @@ for(let i=1;i<=n;i++){
         [str[brr[1]-1],str[brr[2]-1]]=[[str[brr[2]-1]],str[brr[1]-1]];
             
     }
-    else if(2==brr[0]){
+    else(2==brr[0]){
      
             for(let j=0;j<str.length;j++){   
         if(str[j]==='a'){
