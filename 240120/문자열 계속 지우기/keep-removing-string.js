@@ -13,7 +13,6 @@ while(str.includes(input[1]))
 var n = str.indexOf(input[i]);
 str =  str.slice(0,n)+str.slice(n+(input[1].length),str.length);
   
-
+console.log(str);
 i++;
 }
-console.log(str);
