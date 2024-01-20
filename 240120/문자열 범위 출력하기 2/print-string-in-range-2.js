@@ -7,8 +7,8 @@ var sum="";
 
 var str = input[0].split("").reverse().join("");
 
-for(let i=1;i<=n;i++){
+for(let i=0;i<=n;i++){
 sum+=str[i];
 }
 
-console.log(sum);
+console.log(sum.trim());
