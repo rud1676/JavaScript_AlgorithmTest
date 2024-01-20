@@ -12,7 +12,7 @@ while(str.length!==1)
 {
      var n = Number(input[i]);
  if(str.length<=n){
-    str=str.slice(str.length);
+    str=str.slice(0,str.length-1);
 
  }
 str =  str.slice(0,n)+str.slice(n+1,str.length);
