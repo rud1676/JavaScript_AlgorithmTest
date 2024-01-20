@@ -11,7 +11,7 @@ let i=1;
 while(str.length!==1)
 {
      var n = Number(input[i]);
- if(str.length<=n){
+ if(str.length<n){
     n=1;
 
  }
