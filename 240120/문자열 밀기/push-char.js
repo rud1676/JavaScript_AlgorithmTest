@@ -8,7 +8,7 @@ let input = fs.readFileSync(0).toString().trim();
 var str = input;
 
 
-str =  str.slice(-1)+str.slice(2)+str.slice(0,1);
+str =  str.slice(1)+str.slice(0,1);
   
 
 
