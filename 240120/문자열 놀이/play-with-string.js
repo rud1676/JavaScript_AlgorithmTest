@@ -15,27 +15,18 @@ str=str.split("");
 
 for(let i=1;i<=n;i++){
      var brr = input[i].split(" ");
-   
-    if(1==brr[0]){
-          
+    if(1==brr[0]){       
         [str[brr[1]-1],str[brr[2]-1]]=[[str[brr[2]-1]],str[brr[1]-1]];
         str=str.join("")
-        console.log(str);
-       
+        console.log(str);       
     }
     else if(2==brr[0]){
-     
         str=str.split("");
-      
-            for(let j=0;j<str.length;j++){
-
-            
+            for(let j=0;j<str.length;j++){   
         if(str[j]==='a'){
             str[j]=brr[2];
         }
             }
-            console.log(str.join(""));
-         
-    }
-   
+            console.log(str.join(""));       
+    }   
 }
