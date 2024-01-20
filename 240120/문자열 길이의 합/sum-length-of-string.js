@@ -12,4 +12,7 @@ for(let i=0;i<input.length;i++){
 
 let arr=input.join("");
 
+if(n>=10)
+console.log(arr.length-2+" "+cnt);
+else
 console.log(arr.length-1+" "+cnt);
