@@ -11,8 +11,8 @@ let i=1;
 while(str.length!==1)
 {
      var n = Number(input[i]);
- if(str.length<n){
-    n=1;
+ if(str.length<=n){
+    str=str.slice(str.length);
 
  }
 str =  str.slice(0,n)+str.slice(n+1,str.length);
