@@ -3,13 +3,13 @@ let input = fs.readFileSync(0).toString().trim().split("\n");
 
 let n  = input[0];
 
-let arr=input.join("");
+
 var cnt = 0;
 
-for(let i=0;i<arr.length;i++){
-   if(arr[i]==='a')cnt++;
+for(let i=0;i<input.length;i++){
+   if(input[i][0]==='a')cnt++;
 }
 
-
+let arr=input.join("");
 
 console.log(arr.length-1+" "+cnt);
