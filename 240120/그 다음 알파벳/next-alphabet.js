@@ -6,6 +6,8 @@ let input = fs.readFileSync(0).toString().trim();
 var str = String.fromCharCode(Number(input[0].charCodeAt())+1);
 if(str=='z'){
 str='a';
+}else{
+    
 }
 
 console.log(str);
