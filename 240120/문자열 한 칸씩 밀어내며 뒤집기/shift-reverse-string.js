@@ -23,7 +23,7 @@ str =  str.slice(1)+str.slice(0,1);
         str =  str.slice(-1)+str.slice(0,-1);
 
     }else{
-        str =  str.slice(1)+str.slice(0,1);
+        str =  str.split("").reverse().join("");
 
     }
     
