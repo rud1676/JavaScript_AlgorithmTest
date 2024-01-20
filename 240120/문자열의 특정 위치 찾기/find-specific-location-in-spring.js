@@ -2,6 +2,8 @@ const fs = require("fs");
 let input = fs.readFileSync(0).toString().trim().split(" ");
 
 let n = input[0].indexOf(input[1]);
+if(n===-1)n='No';
+
 
 let res;
 for(let i=0;i<input.length;i++){}
