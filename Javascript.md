@@ -46,6 +46,46 @@ const mp = Array.from(Array(a), () => Array(b).fill(0));
 // mp는 컬럼길이 a, row 길이 b로 2차원 배열이 만들어짐!
 ```
 
+## Array 깊은복사
+
+slice함수 쓰면 됨!
+
+```js
+var arr1 = [1, 2, 3, 4];
+var arr2 = arr1.slice();
+
+console.log("arr1: ", arr1);
+console.log("arr2: ", arr2);
+
+arr2[0] = 0;
+
+console.log("arr1: ", arr1);
+console.log("arr2: ", arr2);
+
+console.log(arr1 === arr2);
+
+/*
+arr1:  [ 1, 2, 3, 4 ]
+arr2:  [ 1, 2, 3, 4 ]
+arr1:  [ 1, 2, 3, 4 ]
+arr2:  [ 0, 2, 3, 4 ]
+false
+
+*/
+```
+
+그러나 2차원 배열은 안에 참조요소가 있기때문에 다른 방식을 써야됨!
+
+2차원 배열 깊은복사
+
+```js
+var arr1 = [
+  [1, 2, 3, 4],
+  [1, 2, 3, 4],
+];
+var arr2 = JSON.parse(JSON.stringfy(arr1));
+```
+
 ## 문자열 다루기
 
 ### 시간 형식으로 출력하기 padStart
