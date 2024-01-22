@@ -16,7 +16,7 @@
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [1월 2주차](./2024/1_2/) | [2979](https://www.acmicpc.net/problem/2979), [1159](https://www.acmicpc.net/problem/1159), [1629](https://www.acmicpc.net/source/share/18c305ece6324314ad0b7c6941ed9b30), [4375](https://www.acmicpc.net/problem/4375)                                                                                                                                                                                                           |
 | [1월 3주차](./2024/1_3/) | [1012](https://www.acmicpc.net/problem/1012),[2583](https://www.acmicpc.net/problem/2583), [2828](https://www.acmicpc.net/problem/2828),[4659](https://www.acmicpc.net/problem/4659),[10709](https://www.acmicpc.net/problem/10709),[2852](https://www.acmicpc.net/problem/2852)                                                                                                                                                  |
-| [1월 3주차](./2024/1_4/) | [leetcode_80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/) [1697](https://www.acmicpc.net/problem/1697) [16234](https://www.acmicpc.net/problem/16234) [13913](https://www.acmicpc.net/problem/13913) [3197](https://www.acmicpc.net/problem/3197) [9934](https://www.acmicpc.net/problem/9934) [1189](https://www.acmicpc.net/problem/1189) [19942](https://www.acmicpc.net/problem/19942) |
+| [1월 4주차](./2024/1_4/) | [leetcode_80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/) [1697](https://www.acmicpc.net/problem/1697) [16234](https://www.acmicpc.net/problem/16234) [13913](https://www.acmicpc.net/problem/13913) [3197](https://www.acmicpc.net/problem/3197) [9934](https://www.acmicpc.net/problem/9934) [1189](https://www.acmicpc.net/problem/1189) [19942](https://www.acmicpc.net/problem/19942) |
 
 ## 📔규칙과 공부방법
 
@@ -25,6 +25,8 @@
 - 월요일: 문제를 5개를 같이 선정합니다. README에 선정한 문제를 표에 업로드합니다.
 - ~ 금요일: 문제를 풀고 파일로 작성합니다.
 - 주말: 마저 풀지 못햇던것을 풀고 풀이를 레포지토리에 올리고 PR을 보냅니다. 폴더구조는 아래의 이미지를 참조합니다.
+
+문제를 선정한 사람은 담당자가 되고 그 사람은 수요일까지 그 문제를 풀고 PR로 업로드 합니다!!
 
 담당자는 임시로 본인이 다 처리함!
 
