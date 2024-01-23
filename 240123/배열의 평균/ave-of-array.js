@@ -12,9 +12,9 @@ var sumOne = 0;
 var str="";
 
 for(let i=0;i<4;i++){
-    sumOne+=parseInt(one[i]);
+    sumOne+=Number(one[i]);
 
-    var avr = parseInt(sumOne/4);
+    var avr = Number(sumOne/4);
 
     
 }
@@ -23,9 +23,9 @@ str += avr.toFixed(1);
 sumOne=0;
 
 for(let i=0;i<4;i++){
-    sumOne+=parseInt(two[i]);
+    sumOne+=Number(two[i]);
 
-    var avr = parseInt(sumOne/4);
+    var avr = Number(sumOne/4);
 
     
 }
@@ -36,9 +36,9 @@ sumOne=0;
 str="";
 for(let i=0;i<4;i++){
 
-    sumOne+=parseInt(one[i])+parseInt(two[i]);;
+    sumOne+=Number(one[i])+Number(two[i]);;
 
-    var avr = parseInt(sumOne/2);
+    var avr = Number(sumOne/2);
 str+=avr.toFixed(1)+" ";
 
 
