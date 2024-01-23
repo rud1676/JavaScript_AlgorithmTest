@@ -56,7 +56,7 @@ for(let i=0;i<4;i++){
 
     sumOne+=parseInt(one[i])+parseInt(two[i]);;
 
-    var avr = Math.floor(sumOne/8);
+    var avr =Number(sumOne/8);
 
 
 
