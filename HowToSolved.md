@@ -23,3 +23,35 @@ function dfs(y, x, mp, cnt) {
   return ret;
 }
 ```
+
+### dfs => 탐색이 다른 탐색에 영향을 미치지 않아야할때
+
+원복을 꼭해야한다.!! visited배열을 0으로 초기화한다.
+
+```js
+function dfs(y, x) {
+  if (y === 0 && x === c - 1) {
+    if (mp[y][x] === k) return 1;
+    else return 0;
+  }
+  let ret = 0;
+
+  for (let i = 0; i < 4; i++) {
+    const ny = y + diff[i][0];
+    const nx = x + diff[i][1];
+    if (
+      ny < 0 ||
+      ny >= r ||
+      nx < 0 ||
+      nx >= c ||
+      mp[ny][nx] !== 0 ||
+      INPUT[ny][nx] === "T"
+    )
+      continue;
+    mp[ny][nx] = mp[y][x] + 1;
+    ret += dfs(ny, nx);
+    mp[ny][nx] = 0; //방문하지 않은것으로 처리
+  }
+  return ret;
+}
+```
