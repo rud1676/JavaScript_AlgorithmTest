@@ -1,1 +1,9 @@
 test/
+
+# by jisonglee
+# setting for prettier
+package-lock.json 
+node_modules
+.vscode
+.prettierrc
+.eslinrc.json
