@@ -14,4 +14,4 @@ arr.forEach(item=>{
    }
 })
 
-console.log(min+" "+3)
+console.log(min+" "+cnt)
