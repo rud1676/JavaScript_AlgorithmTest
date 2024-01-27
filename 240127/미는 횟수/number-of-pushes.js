@@ -16,4 +16,4 @@ for(let i=1 ; i<=str.length;i++){
         break;
     }
 }
-console.log(res===0?-1:res);
+console.log(res===0?-2:res);
