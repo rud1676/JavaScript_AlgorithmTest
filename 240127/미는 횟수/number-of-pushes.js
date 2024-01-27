@@ -9,11 +9,11 @@ let str2= input[1];
 let res = 0;
 let str3="";
 
-for(let i=0 ; i<str.length;i++){
+for(let i=1 ; i<=str.length;i++){
     str= str.slice(1)+str.slice(0,1);
     if(str===str2){
         res = i;
         break;
     }
 }
-console.log(res+1);
+console.log(res===0?-1:res);
