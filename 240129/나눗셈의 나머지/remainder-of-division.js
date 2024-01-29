@@ -10,10 +10,11 @@ let arr=new Array(b).fill(0);
 
 
 while(a>1){
-
-a=Math.floor(a/b);
 num=a%b;
 arr[num]++;
+a=Math.floor(a/b);
+
+
 
 
 }
