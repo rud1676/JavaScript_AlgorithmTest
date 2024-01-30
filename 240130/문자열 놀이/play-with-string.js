@@ -1,32 +1,20 @@
-// 변수 선언 및 입력
 const fs = require("fs");
-let input = fs.readFileSync(0).toString().trim().split("\n");
+let input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
 
-// 문자열의 길이를 구합니다.
-//let length = input.length;
+let [str, q] = input[0].split(" ");
+str = str.split("");
+q = Number(q);
 
-var arr = input[0].split(" ");
-
-let str = arr[0];
-let n = arr[1];
-
-str=str.split("");
-
-
-for(let i=1;i<=n;i++){
-     var brr = input[i].split(" ");
-    if(1==brr[0]){       
-        [str[brr[1]-1],str[brr[2]-1]]=[[str[brr[2]-1]],str[brr[1]-1]];
-            
+for(let i = 1; i <= q; i++) {
+    let query = input[i].split(" ");
+    if(query[0] === '1') {
+        // 1 a b : a번째 문자와 b번째 문자를 교환
+        let a = Number(query[1]) - 1;
+        let b = Number(query[2]) - 1;
+        [str[a], str[b]] = [str[b], str[a]];
+    } else if(query[0] === '2') {
+        // 2 a b : 문자 a를 전부 문자 b로 변경
+        str = str.map(char => char === query[1] ? query[2] : char);
     }
-    else if(2==brr[0]){
-     
-            for(let j=0;j<str.length;j++){   
-        if(str[j]==='a'){
-            str[j]=brr[2];
-        }
-            }
-                
-    }   
     console.log(str.join(""));
 }
