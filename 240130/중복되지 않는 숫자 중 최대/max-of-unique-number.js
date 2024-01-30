@@ -16,7 +16,7 @@ for(let i=0;i<N;i++){
         }
     }
 
-    if(arr[i]>max){
+    if(count===1 && arr[i]>max){
         max=arr[i];
     }
 }
