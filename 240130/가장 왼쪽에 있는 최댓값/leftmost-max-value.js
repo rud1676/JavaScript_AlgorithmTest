@@ -15,4 +15,4 @@ while (numbers.length > 0) {
     numbers = numbers.slice(0, numbers.indexOf(max_value));
 }
 
-console.log(maxPositions.reverse().join(" "));
+console.log(maxPositions.join(" "));
