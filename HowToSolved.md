@@ -55,3 +55,31 @@ function dfs(y, x) {
   return ret;
 }
 ```
+
+### javascript에서 순열 추출 알고리즘
+
+```js
+function permutation(arr, length) {
+  const result = [];
+  if (length === 1) return arr.map((v) => [v]);
+
+  arr.forEach((fix, idx, origin) => {
+    const rest = [...origin.slice(0, idx), ...origin.slice(idx + 1)];
+    const perm = permutation(rest, length - 1); //순열들이 나온다.
+    const attech = perm.map((v) => [...v, fix]);
+    result.push(...attech);
+  });
+  return result;
+}
+
+console.log(permutation([1, 2, 3, 4], 3));
+```
+
+기본틀은 외워서 자유롭게 변형하기!! 기본개념은 아래와 같음!!
+
+```
+1(선택) -> permutation([2,3,4]) -> 4(선택) -> permutation(1,2) -> ...
+2(선택) -> permutation([1,3,4]) -> 3(선택) -> permutation(1,2) -> ...
+3(선택) -> permutation([1,2,4]) -> ...
+4(선택) -> permutation([1,2,3]) -> ...
+```
