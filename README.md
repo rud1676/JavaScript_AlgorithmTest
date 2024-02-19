@@ -22,19 +22,32 @@
 
 ## 📔규칙과 공부방법
 
-백준에 나와있는 문제들을 선정합니다.
+### 🧾사전 알림
 
-- 월요일: 문제를 5개를 같이 선정합니다. README에 선정한 문제를 표에 업로드합니다.
-- ~ 금요일: 문제를 풀고 파일로 작성합니다.
-- 주말: 마저 풀지 못햇던것을 풀고 풀이를 레포지토리에 올리고 PR을 보냅니다. 폴더구조는 아래의 이미지를 참조합니다.
+챌린저스 앱에서 만원을 참가비로 받습니다.
+
+기수마다 10주차까지 완주하였을 경우. 남아있는 인원들이 참가비를 분배하여 받습니다.
+
+7주차 전까지는 1주차 미완료는 봐드립니다!
+
+7주차 이후 10주차 전까지도 1주차 미완료까지 봐드립니다!
+
+- **중간에 나갈때 돈받을 수 있는 경우**
+
+- 개인적인 사정은 사유를 꼭 방장님께 말하셔야됩니다! - 그냥 개인적인 사정이라 하고 나가시면 돈 못돌려드립니다!
+- 스터디가 필요없어진 경우 - ex 취업, 진로변경 등
+- 7주차까지 꾸준히 완료하시고 그 이후에 나가시는 분.
+
+### 진행
+
+- 월요일 ~ 금요일: 선정된 문제들을 푸는 기간입니다
+- 주말: 마저 풀지 못햇던것을 풀고 풀이를 레포지토리에 올리고 PR을 보냅니다. 폴더구조는 아래의 이미지를 참조합니다.(주말에 문제가 선정이 됩니다.)
 
 문제를 선정한 사람은 담당자가 되고 그 사람은 수요일까지 그 문제를 풀고 PR로 업로드 합니다!!
 
-담당자는 임시로 본인이 다 처리함!
+취준 모임 톡방에 참여하신 분들에 한에서 문제마다 참여하신 분들을 톡방에다가 올리겠습니다!
 
-취준 모임 톡방에 참여하신 분들에 한에서 문제마다 참여하신 분들을 톡방에다가 매주 금요일마다 올려서 동기부여를 하겠습니다!!
-
-ex) 아래와 같이 매주 금요일마다 카톡이 올라옵니다!
+ex)
 
 ```
 1월 2주차 Javascript코딩테스트 참여자
@@ -44,6 +57,56 @@ ex) 아래와 같이 매주 금요일마다 카톡이 올라옵니다!
 2971
 @rudwls96 @rud15
 ```
+
+### 커리큘럼
+
+1주차: 해시 스택큐
+
+- [프로그래머스*해시*문제집](https://school.programmers.co.kr/learn/courses/30/parts/12077)
+- [프로그래머스*스택큐*문제집](https://school.programmers.co.kr/learn/courses/30/parts/12077)
+
+2주차: 누적합, 문자열, 구현
+
+- [호탤대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651)
+- [파괴되지*않은*건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344)
+- [모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512)
+- [광고삽입](https://school.programmers.co.kr/learn/courses/30/lessons/72414)
+- [괄호회전](https://school.programmers.co.kr/learn/courses/30/lessons/76502)
+- [압축](https://programmers.co.kr/learn/courses/30/lessons/17684)
+- [행렬곱](https://school.programmers.co.kr/learn/courses/30/lessons/12949)
+- [멀쩡한사각형](https://school.programmers.co.kr/learn/courses/30/lessons/62048)
+- [삼각달팽이](https://school.programmers.co.kr/learn/courses/30/lessons/68645)
+- [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993#)
+
+3주차: DFS, BFS
+
+- [가장먼노드](https://school.programmers.co.kr/learn/courses/30/parts/14393)
+- [순위](https://school.programmers.co.kr/learn/courses/30/lessons/49191)
+- [전력망](https://school.programmers.co.kr/learn/courses/30/lessons/86971)
+- [프로그래머스*DFS*문제집](https://school.programmers.co.kr/learn/courses/30/parts/12421)
+
+4주차: 완전탐색
+
+- [프로그래머스*완전탐색*문제집](https://school.programmers.co.kr/learn/courses/30/parts/12230)
+- [양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)
+- [치킨배달](https://www.acmicpc.net/problem/15686)
+- [보물섬](https://www.acmicpc.net/problem/2589)
+- [불!](https://www.acmicpc.net/problem/4179)
+- [사다리조작](https://www.acmicpc.net/problem/15684)
+
+5주차: 비트마스킹
+6주차: 그리디, 투포인터
+7주차: 라인스위핑, 이분탐색
+8주차: DP
+9주차: 최단거리
+10주차: 팬윅트리
+
+### 알림
+
+- 4주차 까지는 평일에 매일 2문제씩 푸는 양으로 해놧습니다! 5주차 이후로는 1~2문제씩 푸는 느낌으로 진행합니다.
+- 난이도는 한문제에 40~50분 걸리는 정도로 선정을 하려고합니다(저도 안풀어보는 문제들이라 미스가 날 수 도있어서 5주차이후로는 1~2문제씩 선정할 예정)
+
+코딩테스트는 쉬운 문제만 풀면 절대 안늘어요!! 계속 연습하고 있지만 항상 쉬운문제만 찾다가 삽질을 많이해서 시간을 많이 날린 것 같네요..
 
 ## ✍️ 문제 푸는 방법
 
@@ -61,7 +124,7 @@ ex) 아래와 같이 매주 금요일마다 카톡이 올라옵니다!
 2. Fork된 프로젝트에서 git clone을 한다.
 3. git remote add upstream https://github.com/rud1676/JavaScript_AlgorithmTest.git 명령으로 upstream에 이 프로젝트의 주소를 저장한다.
 4. git remote add origin {fork된 내원격 저장소}
-5. 코딩테스트 푼 코드를 위의 규칙대로 작성하고 commit, upstream으로 push를 한다.
+5. 코딩테스트 푼 코드를 위의 규칙대로 작성하고 commit작성 후에, main에 push를 한다.
 6. 나의 fork된 저장소에 PR탭으로 들어가 new pull request를 생성한다.
 
 이때 어떤 문제를 풀었는지 어떻게 풀었는지 번호를 적고 PR을 생성한다.
@@ -83,7 +146,6 @@ DFS
 
 - git fetch upstream 으로 원격 저장소의 최신내용을 가져온다.
 - git checkout main
-- git merge upstream/main
 - git push origin main
   으로 나의 원격 저장소와 최신화 시켜준다.
 
