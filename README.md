@@ -1,16 +1,10 @@
 # 🧮 JavaScript Alghorithm Test
 
-자바스크립트로 알고리즘문제를 풀기 위한 레포입니다! 주마다 최소 5문제 푸는게 목표이며, 초반엔 주제별로, 이후엔 난이도별로 문제를 픽합니다.
+자바스크립트로 알고리즘문제를 풀기 위한 레포입니다!
 
-## 문제 선정 개요
+### 진행 현황 표
 
-- 1월 : 브론즈 - 실버 문제 위주로 선정
-  - 3주차 부터 dfs, bfs위주로!
-- 2월 : 그리디 알고리즘 문제 포함.
-
----
-
-### 2024
+1기
 
 | 주차                       | 문제                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -19,6 +13,21 @@
 | [1월 4주차](./2024/1_4/)   | [leetcode_80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/) [1697](https://www.acmicpc.net/problem/1697) [16234](https://www.acmicpc.net/problem/16234) [13913](https://www.acmicpc.net/problem/13913) [3197](https://www.acmicpc.net/problem/3197) [9934](https://www.acmicpc.net/problem/9934) [1189](https://www.acmicpc.net/problem/1189) [19942](https://www.acmicpc.net/problem/19942)                                                                                                                                                                                                                                                                   |
 | [1월 5주차](./2024/1_5/)   | [p-72413](https://school.programmers.co.kr/learn/courses/30/lessons/72413) [c-omakase](https://www.codetree.ai/training-field/frequent-problems/problems/codetree-omakase/description?page=1&pageSize=20) [p-258711](https://school.programmers.co.kr/learn/courses/30/lessons/258711?language=javascript) [p-12899](https://school.programmers.co.kr/learn/courses/30/lessons/12899) [p-12939](https://school.programmers.co.kr/learn/courses/30/lessons/12939) [p-250136](https://school.programmers.co.kr/learn/courses/30/lessons/250136) [p-43165](https://school.programmers.co.kr/learn/courses/30/lessons/43165) [p-42888](https://school.programmers.co.kr/learn/courses/30/lessons/42888) |
 | [2월 2~3주차](./2024/2_2/) | 이분탐색 [p-43238](https://school.programmers.co.kr/learn/courses/30/lessons/43238) [p-43236](https://school.programmers.co.kr/learn/courses/30/lessons/43236) -- 완전탐색 [p-86491](https://school.programmers.co.kr/learn/courses/30/lessons/86491) [p-85491](https://school.programmers.co.kr/learn/courses/30/lessons/84512) [p-86971](https://school.programmers.co.kr/learn/courses/30/lessons/86971) [p-87946](https://school.programmers.co.kr/learn/courses/30/lessons/87946) [p-42842](https://school.programmers.co.kr/learn/courses/30/lessons/42842) [p-42839](https://school.programmers.co.kr/learn/courses/30/lessons/42839)                                                        |
+
+2기
+
+| 주차                                   | 문제                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [1주-해시스텍큐](./2nd/week1/)         | [프로그래머스-해시-문제집](https://school.programmers.co.kr/learn/courses/30/parts/12077), [프로그래머스-스택큐-문제집](https://school.programmers.co.kr/learn/courses/30/parts/12077)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| [2주-누적합,문자열,구현](./2nd/week2/) | [호탤대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651),[파괴되지-않은-건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344) ,[모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512),[광고삽입](https://school.programmers.co.kr/learn/courses/30/lessons/72414),[괄호회전](https://school.programmers.co.kr/learn/courses/30/lessons/76502),[압축](https://programmers.co.kr/learn/courses/30/lessons/17684),[행렬곱](https://school.programmers.co.kr/learn/courses/30/lessons/12949),[멀쩡한사각형](https://school.programmers.co.kr/learn/courses/30/lessons/62048),[삼각달팽이](https://school.programmers.co.kr/learn/courses/30/lessons/68645),[스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993#) |
+| [3주-DFS,BFS](./2nd/week3/)            | [가장먼노드](https://school.programmers.co.kr/learn/courses/30/parts/14393),[순위](https://school.programmers.co.kr/learn/courses/30/lessons/49191),[전력망](https://school.programmers.co.kr/learn/courses/30/lessons/86971),[프로그래머스-DFS-문제집](https://school.programmers.co.kr/learn/courses/30/parts/12421)                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| [4주-완전탐색](./2nd/week4/)           | [프로그래머스-완전탐색-문제집](https://school.programmers.co.kr/learn/courses/30/parts/12230),[양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342),[치킨배달](https://www.acmicpc.net/problem/15686),[보물섬](https://www.acmicpc.net/problem/2589),[불!](https://www.acmicpc.net/problem/4179),[사다리조작](https://www.acmicpc.net/problem/15684)                                                                                                                                                                                                                                                                                                                                                                                                             |
+| [5주-비트마스킹](./2nd/week5/)         | ...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| [6주-그리디,투포인터](./2nd/week6)     | ...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| [7주-라인스위핑,이분탐색](./2nd/week7) | ...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| [8주-DP](./2nd/week8)                  | ...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| [9주-최단거리](./2nd/week9)            | ..                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| [10주-팬윅트리](./2nd/week10)          | ..                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 ## 📔규칙과 공부방법
 
@@ -51,52 +60,6 @@
 
 ### 커리큘럼
 
-1주차: 해시 스택큐
-
-- [프로그래머스*해시*문제집](https://school.programmers.co.kr/learn/courses/30/parts/12077)
-- [프로그래머스*스택큐*문제집](https://school.programmers.co.kr/learn/courses/30/parts/12077)
-
-2주차: 누적합, 문자열, 구현
-
-- [호탤대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651)
-- [파괴되지*않은*건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344)
-- [모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512)
-- [광고삽입](https://school.programmers.co.kr/learn/courses/30/lessons/72414)
-- [괄호회전](https://school.programmers.co.kr/learn/courses/30/lessons/76502)
-- [압축](https://programmers.co.kr/learn/courses/30/lessons/17684)
-- [행렬곱](https://school.programmers.co.kr/learn/courses/30/lessons/12949)
-- [멀쩡한사각형](https://school.programmers.co.kr/learn/courses/30/lessons/62048)
-- [삼각달팽이](https://school.programmers.co.kr/learn/courses/30/lessons/68645)
-- [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993#)
-
-3주차: DFS, BFS
-
-- [가장먼노드](https://school.programmers.co.kr/learn/courses/30/parts/14393)
-- [순위](https://school.programmers.co.kr/learn/courses/30/lessons/49191)
-- [전력망](https://school.programmers.co.kr/learn/courses/30/lessons/86971)
-- [프로그래머스*DFS*문제집](https://school.programmers.co.kr/learn/courses/30/parts/12421)
-
-4주차: 완전탐색
-
-- [프로그래머스*완전탐색*문제집](https://school.programmers.co.kr/learn/courses/30/parts/12230)
-- [양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)
-- [치킨배달](https://www.acmicpc.net/problem/15686)
-- [보물섬](https://www.acmicpc.net/problem/2589)
-- [불!](https://www.acmicpc.net/problem/4179)
-- [사다리조작](https://www.acmicpc.net/problem/15684)
-
-5주차: 비트마스킹
-
-6주차: 그리디, 투포인터
-
-7주차: 라인스위핑, 이분탐색
-
-8주차: DP
-
-9주차: 최단거리
-
-10주차: 팬윅트리
-
 ### 알림
 
 - 4주차 까지는 평일에 매일 2문제씩 푸는 양으로 해놧습니다! 5주차 이후로는 1~2문제씩 푸는 느낌으로 진행합니다.
@@ -113,8 +76,6 @@
 ![Alt text](./img/image.png)
 
 ## 👨‍💻참여방법
-
-[카카오톡오픈채팅링크](https://open.kakao.com/o/g19Rd43f)
 
 1. 이 프로젝트를 Fork 한다.
 2. Fork된 프로젝트에서 git clone을 한다.
