@@ -20,11 +20,12 @@ function solution(genres, plays) {
   let answer = [];
   total.sort((a, b) => b[1] - a[1]);
   for (let i = 0; i < total.length; i++) {
-    if (hash.get(total[i][0]).length >= 2) {
-      let max = hash.get(total[i][0]).sort((a, b) => b[1] - a[1]);
+    let key = total[i][0];
+    if (hash.get(key).length >= 2) {
+      let max = hash.get(key).sort((a, b) => b[1] - a[1]);
       answer.push(max[0][0]);
       answer.push(max[1][0]);
-    } else answer.push(hash.get(total[i][0])[0][0]);
+    } else answer.push(hash.get(key)[0][0]);
   }
   return answer;
 }
