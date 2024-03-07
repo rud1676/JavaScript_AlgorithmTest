@@ -7,4 +7,4 @@ node_modules
 .vscode
 .prettierrc
 .eslinrc.json
-.DS_Store
+.DS_Store/
