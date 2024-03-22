@@ -4,11 +4,13 @@ let diff = [
   [0, 1],
   [0, -1],
 ];
+
 function solution(rectangle, characterX, characterY, itemX, itemY) {
   var answer = 0;
   // 두배로 해서 색칠을 확실하게 구분하기!!
 
   const road = Array.from(Array(102), () => Array(102).fill(0));
+
   for (const r of rectangle) {
     const rec = r.map((v) => v * 2);
     for (let i = rec[1]; i <= rec[3]; i++) {
