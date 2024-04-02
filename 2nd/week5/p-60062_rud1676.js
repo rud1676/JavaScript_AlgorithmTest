@@ -37,6 +37,4 @@ function solution(n, weak, dist) {
     }
   }
   return -1;
-
-  return answer;
 }
