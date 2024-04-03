@@ -1,24 +1,31 @@
-const input = require("fs")
+const INPUT = require("fs")
   .readFileSync(process.platform === "linux" ? "/dev/stdin" : "./input.txt")
   .toString()
   .trim()
   .split("\n");
 
-const [a, b, c] = input.shift().split(" ").map(Number);
-const [as, ad] = input.shift().split(" ").map(Number);
-const [bs, bd] = input.shift().split(" ").map(Number);
-const [cs, cd] = input.shift().split(" ").map(Number);
+/* 실제 알고리즘 푸는곳 그냥 1~100까지 카운팅해서 풀었습니다.*/
+function solution() {
+  const prices = INPUT[0].split(" ").map((v) => Number(v));
+  let cars = INPUT.slice(1, 4);
+  cars = cars.map((v) => {
+    return v.split(" ").map((vv) => Number(vv));
+  });
+  let total = 0;
 
-let sum = 0;
+  for (let i = 1; i <= 100; i++) {
+    let cnt = 0;
+    for (let arr of cars) {
+      if (arr[0] < i && arr[1] >= i) {
+        cnt++;
+      }
+    }
+    if (cnt !== 0) {
+      total += prices[cnt - 1] * cnt;
+    }
+  }
 
-for (let i = 1; i <= 100; i++) {
-  let cnt = 0;
-  if (i > as && i <= ad) cnt++;
-  if (i > bs && i <= bd) cnt++;
-  if (i > cs && i <= cd) cnt++;
-  if (cnt === 1) sum += a;
-  if (cnt === 2) sum += b * 2;
-  if (cnt === 3) sum += c * 3;
+  console.log(total);
 }
 
-console.log(sum);
+solution();
