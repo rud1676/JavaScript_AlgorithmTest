@@ -8,3 +8,5 @@ node_modules
 .prettierrc
 .eslinrc.json
 .DS_Store/
+temp.md
+.DS_Store

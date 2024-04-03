@@ -1,3 +1,11 @@
+# 문제 풀이 현황
+
+|                      ID                       |                         Profile                          |                                                                      Solved                                                                       |
+| :-------------------------------------------: | :------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
+|       [10o0o](https://github.com/10o0o)       |    <img width=150 src="https://github.com/10o0o.png">    |    [!<img width=150 src="https://capsule-render.vercel.app/api?type=rounded&text=53개&color=gradient&height=800&fontSize=200">](./id/10o0o.md)    |
+| [moonjonghoo](https://github.com/moonjonghoo) | <img width=150 src="https://github.com/moonjonghoo.png"> | [!<img width=150 src="https://capsule-render.vercel.app/api?type=rounded&text=50개&color=gradient&height=800&fontSize=200">](./id/moonjonghoo.md) |
+|     [rud1676](https://github.com/rud1676)     |   <img width=150 src="https://github.com/rud1676.png">   |   [!<img width=150 src="https://capsule-render.vercel.app/api?type=rounded&text=92개&color=gradient&height=800&fontSize=200">](./id/rud1676.md)   |
+
 # 🧮 JavaScript Alghorithm Test
 
 자바스크립트로 알고리즘문제를 풀기 위한 레포입니다!
@@ -30,8 +38,6 @@
 
 톡방에서 문제풀이에 관한 이야기는 자유롭게 가능합니다!
 
-### 커리큘럼
-
 ### 알림
 
 - 4주차 까지는 평일에 매일 2문제씩 푸는 양으로 해놧습니다! 5주차 이후로는 1~2문제씩 푸는 느낌으로 진행합니다.
@@ -55,28 +61,6 @@
 4. git remote add origin {fork된 내원격 저장소}
 5. 코딩테스트 푼 코드를 위의 규칙대로 작성하고 commit작성 후에, main에 push를 한다.
 6. 나의 fork된 저장소에 PR탭으로 들어가 new pull request를 생성한다.
-
-이때 어떤 문제를 풀었는지 어떻게 풀었는지 번호를 적고 PR을 생성한다.
-
-예시
-
-```
-2453 백준
-이분탐색
-
-2433 백준
-DFS
-
-2542 백준
-그리디
-```
-
-이후에 작업할 땐...
-
-- git fetch upstream 으로 원격 저장소의 최신내용을 가져온다.
-- git checkout main
-- git push origin main
-  으로 나의 원격 저장소와 최신화 시켜준다.
 
 [링크](https://velog.io/@jisubin12/Github-외부저장소-fork-pull-request-동기화-하기) 를 보면서 작성한 가이드라인입니다.
 
