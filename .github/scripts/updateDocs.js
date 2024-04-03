@@ -72,7 +72,7 @@ function updateDocuments() {
 
 // 테이블 한줄 갱신하는 거
 function GeneratorTableRow(id, nums) {
-  return `|[${id}](https://github.com/${id}) | <img width=150 src="https://github.com/${id}.png"> | [!<img width=150 src="https://capsule-render.vercel.app/api?type=rounded&text=${nums}개&color=gradient&height=800&fontSize=200">](./id/${id}.md)|
+  return `|[${id}](https://github.com/${id}) | <img width=150 src="https://github.com/${id}.png"> | [<img width=150 src="https://capsule-render.vercel.app/api?type=rounded&text=${nums}개&color=gradient&height=800&fontSize=200">](./id/${id}.md)|
   `;
 }
 
