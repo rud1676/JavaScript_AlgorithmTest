@@ -1,4 +1,11 @@
-# 🧮 JavaScript Alghorithm Test
+
+  # 문제 풀이 현황
+  |ID|Profile|Solved|
+  |:---:|:---:|:---:|
+  |[10o0o](https://github.com/10o0o) | <img width=150 src="https://github.com/10o0o.png"> | [<img width=150 src="https://capsule-render.vercel.app/api?type=rounded&text=53개&color=gradient&height=800&fontSize=200">](./id/10o0o.md)|
+  |[moonjonghoo](https://github.com/moonjonghoo) | <img width=150 src="https://github.com/moonjonghoo.png"> | [<img width=150 src="https://capsule-render.vercel.app/api?type=rounded&text=50개&color=gradient&height=800&fontSize=200">](./id/moonjonghoo.md)|
+  |[rud1676](https://github.com/rud1676) | <img width=150 src="https://github.com/rud1676.png"> | [<img width=150 src="https://capsule-render.vercel.app/api?type=rounded&text=92개&color=gradient&height=800&fontSize=200">](./id/rud1676.md)|
+  # 🧮 JavaScript Alghorithm Test
 
 자바스크립트로 알고리즘문제를 풀기 위한 레포입니다!
 
