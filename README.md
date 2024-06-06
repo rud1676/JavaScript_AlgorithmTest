@@ -2,7 +2,7 @@
   # 문제 풀이 현황
   |ID|Profile|Solved|
   |:---:|:---:|:---:|
-  |[rud1676](https://github.com/rud1676) | <img width=150 src="https://github.com/rud1676.png"> | [<img width=150 src="https://capsule-render.vercel.app/api?type=rounded&text=105개&color=gradient&height=800&fontSize=200">](./id/rud1676.md)|
+  |[rud1676](https://github.com/rud1676) | <img width=150 src="https://github.com/rud1676.png"> | [<img width=150 src="https://capsule-render.vercel.app/api?type=rounded&text=106개&color=gradient&height=800&fontSize=200">](./id/rud1676.md)|
   # 🧮 JavaScript Alghorithm Test
 
 자바스크립트로 알고리즘문제를 풀기 위한 레포입니다!
